@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-        "@/*": ["../*"], // adjust this relative mapping according to your directory structure
+        "@/*": ["./*"], // adjust this relative mapping according to your directory structure
         "@amplify/*": ["../../amplify/*"] // if your amplify folder is two levels up
     }
   },
