@@ -19,8 +19,7 @@
       }
     ],
     "paths": {
-        "@/*": ["./*"], // adjust this relative mapping according to your directory structure
-        "@amplify/*": ["../../amplify/*"] // if your amplify folder is two levels up
+        "@/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
